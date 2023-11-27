@@ -1,11 +1,14 @@
 body {
-  background-color: #f9f7fe;
-  font-family: sans-serif;
+  background-image: url("map.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #644217;
 }
 
 h1 {
   text-align: center;
-  font-family: sans-serif;
   font-size: 36px;
 }
 
@@ -14,18 +17,19 @@ h2 {
   font-size: 28px;
 }
 select {
+  color: #644217;
   display: block;
   width: 100%;
   font-size: 18px;
   border-radius: 5px;
+  border-color: #644217;
   padding: 10px;
 }
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background-color: white;
+  background-color: #fcf4e6;
   padding: 30px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
 }
 
@@ -58,5 +62,5 @@ select {
 footer {
   text-align: center;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
+  color: #644217;
 }
